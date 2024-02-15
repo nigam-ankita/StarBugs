@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body
+{
+    /* background-color: rgb(20, 20, 53); */
+    background-color: rgb(12, 8, 51);
+}
+
+
+
+
+nav
+{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color:rgb(12, 154, 189);
+    /* border: 2px solid black; */
+   
+}
+#COffee
+{
+    /* background-color: rgb(12, 8, 51); */
+    background-color: rgb(32, 32, 69);
+}
+
+
+nav img{
+    height: 70px;
+}
+
+
+
+
+nav ul
+{
+    font-family: cursive;
+    /* border: 2px solid black; */
+    list-style: none;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#AUs
+{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+    background-color: #017143;
+
+
+}
+
+
+#AUs:hover
+{
+   
+    text-decoration: underline;
+}
+
+
+nav ul li
+{
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+
+
+nav ul li:hover
+{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+    background-color: #017143;
+
+
+}
+
+
+
+
+main
+{
+    height: 82vh;
+    width: 93vw;
+    background-color: white;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    /* box-shadow: 5px 5px 50px gray; */
+    display: flex;
+}
+
+
+
+
+#First
+{
+    height: 100%;
+    width: 50%;
+   color: rgb(12, 154, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    border-radius: 30px 0 0 30px;
+}
+
+
+#Content
+{
+    /* border: 1px solid black; */
+    font-family: cursive;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+#Line
+{
+    height: 4px;
+    width: 60%;
+    background-color: #017143;
+    margin: 15px 0;
+
+
+}
+
+
+#Content p{
+    font-family: sans-serif;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+
+#Btns
+{
+
+
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+ 
+    margin-top: 20px;
+}
+#SMore
+{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+     text-decoration: underline;
+    margin: 0 10px;
+    background-color: rgb(24, 118, 7);
+}
+
+
+
+
+#OMore
+{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+    /* color: white; */
+    margin: 0 10px;
+    text-decoration: underline;
+    background-color: rgb(24, 118, 7);
+}
+
+
+
+
+#Second
+{
+    height: 100%;
+    width: 50%;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+#Blob
+{
+    width: 100%;
+}
+
+
+#CoffeeImg {
+    width: 60%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+
+#CoffeeImg:hover
+{
+    transform: scale(1.1) rotate(15deg);
+}
+
